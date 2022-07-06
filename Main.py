@@ -39,7 +39,7 @@ def main():
     """Start the bot."""
     # Create the Updater and pass it your bot's token.
     # Make sure to set use_context=True to use the new context based callbacks
-    updater = Updater("2058298945:AAGBhlrUhS75p621dHJVmkSGGDgnVBerK7I", use_context=True)
+    updater = Updater("API_TOKEN", use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
